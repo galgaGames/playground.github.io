@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galgacolo!</title>
+    <link rel="stylesheet" href="./css/picolo.css" />
+  </head>
+  <body>
+    <div id="galgacolo-settings" class="galgacolo-settings">
+      <h1>This is the mighty Galgacolo!</h1>
+      <div id="player-name-input-container" class="content-container">
+        <input
+          id="player-name-input"
+          class="input-box"
+          type="text"
+          name="player-name-input"
+          placeholder="Player Name"
+        />
+        <button
+          id="player-name-button"
+          class="circle-btn"
+          onclick="addPlayer()"
+        >
+          +
+        </button>
+      </div>
+      <div class="content-container">
+        <h2>Players</h2>
+        <p id="player-counter-label">0</p>
+      </div>
+      <ul id="player-list"></ul>
+      <button id="play-button" class="btn" onclick="start()">Play</button>
+    </div>
+  </body>
+  <script type="text/javascript" src="./res/data.js"></script>
+  <script type="text/javascript" src="./res/questions.js"></script>
+
+  <script type="text/javascript" src="./js/listners.js"></script>
+  <script type="text/javascript" src="./js/picolo.js"></script>
+</html>
