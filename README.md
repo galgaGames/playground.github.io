@@ -6,5 +6,5 @@ You can find our work on
 https://galgagames.github.io/playground.github.io/
 
 # How to contribute
-Make a branch, do some code, commit the code, merge in into main. Done!
+Make a branch, do some code, commit the code, merge in into master. Done!
 Easy!
