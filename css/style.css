@@ -1,0 +1,15 @@
+body {
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+}
+
+.protrait {
+  border: 1em solid cadetblue;
+  border-radius: 1em;
+}
+
+.protraitContainer {
+  display: flex;
+  justify-content: center;
+}
