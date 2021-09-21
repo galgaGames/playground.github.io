@@ -14,8 +14,6 @@ Easy!
 
 # Have not used git before?
 
-sux 4 u
-
 ### No worries!
 
 First off there are plenty of toutorials out there! if you dont bother watchign them, just start playing around with it, but i recomend using one of the git gui's out there like _gitkraken_, _gitdesktop_, _sourcetree_ or the one im using **sublime merge!** they help give you some overwiev of the git flow. and they are pretty easy to use!

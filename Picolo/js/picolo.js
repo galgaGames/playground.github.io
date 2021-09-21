@@ -32,5 +32,9 @@ const removePlayer = (name) => {
 };
 
 const start = () => {
+  //hide settings
+  document.getElementById("galgacolo-settings").style.display = "none";
+  //show game
+  document.getElementById("galgacolo-container").style.display = "block";
   console.log("starting ze game", questions);
 };
